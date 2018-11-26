@@ -20,17 +20,17 @@
       </div>
 
       <div id="top-navbar-collapse" :class="['collapse', 'navbar-collapse', { in: showCollapsedNav }]">
-        <ul class="nav navbar-nav">
-          <li v-for="(item, index) in navList" :class="{ active: index === activeNavIndex }">
-            <a href="#" @click="changeNavIndex(index)">{{ item }}</a>
-          </li>
-        </ul>
-        
-        <div class="navbar-right">
+			  <ul class="nav navbar-nav">
+			    <li v-for="(item, index) in navList" :class="{ active: index === activeNavIndex }">
+			      <a href="#" @click="changeNavIndex(index)">{{ item }}</a>
+			    </li>
+			  </ul>
+			
+			  <!-- 入口组件 -->
+			  <div class="navbar-right">
 			    <TheEntry/>
 			  </div>
-			  
-      </div>
+			</div>
     </div>
   </div>
 </template>
