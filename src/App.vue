@@ -39,5 +39,6 @@
 	@import "./styles/extra";
 	@import 'simplemde/dist/simplemde.min.css';
 	@import 'highlight.js/styles/paraiso-dark.css';
+	@import "animate.css/animate.min.css";
 
 </style>
