@@ -67,7 +67,6 @@ export default {
     register(e) {
       this.$nextTick(() => {
         const target = e.target.type === 'submit' ? e.target : e.target.parentElement
-
         if (target.canSubmit) {
           this.submit()
         }

@@ -9,6 +9,7 @@ Vue.use(Router)
 
 const router =  new Router({
   mode: 'history',
+  base:'/mctemp/',
   linkExactActiveClass: 'active',
   // 指定滚动行为
   scrollBehavior(to, from, savedPosition) {
